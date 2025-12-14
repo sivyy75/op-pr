@@ -21,7 +21,7 @@ esac
 
 OPERA_BIN="/usr/bin/opera-proxy"
 # 🔥 ИСПРАВЛЕНО: убраны пробелы в URL!
-OPERA_URL="https://github.com/Snawoot/opera-proxy/releases/download/v1.12.0/$FILE"
+OPERA_URL="https://github.com/Snawoot/opera-proxy/releases/download/v1.13.1/$FILE"
 
 # Остановка старого процесса
 killall opera-proxy 2>/dev/null || true
