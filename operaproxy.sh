@@ -52,7 +52,7 @@ start_service() {
         procd_close_instance
 
         procd_open_instance
-        procd_set_param command "$PROG" -verbosity 50 -bind-address 0.0.0.0:18080 -fake-SNI video.vk.com -api-address 77.111.247.15
+        procd_set_param command "$PROG" -verbosity 50 -bind-address 0.0.0.0:18080 -fake-SNI ya.ru -api-address 77.111.247.15
         procd_set_param stdout 1
         procd_set_param stderr 1
         procd_set_param respawn ${respawn_threshold:-3600} ${respawn_timeout:-5} ${respawn_retry:-5}
