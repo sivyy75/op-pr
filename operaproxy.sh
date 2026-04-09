@@ -28,9 +28,9 @@ killall opera-proxy 2>/dev/null || true
 sleep 1
 
 # Скачивание
-rm -f "$OPERA_BIN"
-log "⬇️ Скачиваю $FILE..."
-wget -O "$OPERA_BIN" "$OPERA_URL" || fail "Не удалось скачать Opera Proxy"
+# rm -f "$OPERA_BIN"
+# log "⬇️ Скачиваю $FILE..."
+# wget -O "$OPERA_BIN" "$OPERA_URL" || fail "Не удалось скачать Opera Proxy"
 chmod +x "$OPERA_BIN"
 
 # --- [5/6] Автозапуск через procd ---
