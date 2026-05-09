@@ -21,7 +21,7 @@ esac
 
 OPERA_BIN="/usr/bin/opera-proxy_Alexey71"
 # 🔥 ИСПРАВЛЕНО: убраны пробелы в URL!
-OPERA_URL="https://github.com/Alexey71/opera-proxy/releases/latest/$FILE"
+OPERA_URL="https://github.com/Alexey71/opera-proxy/releases/tag/v1.19.1/$FILE"
 
 # Остановка старого процесса
 killall opera-proxy_Alexey71 2>/dev/null || true
